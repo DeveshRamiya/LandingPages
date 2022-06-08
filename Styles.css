@@ -1,0 +1,269 @@
+body {
+    background-color: black;
+    /* background-image: url('Group\ 36952\ 1.svg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; */
+
+}
+
+section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homepage {
+    min-width: 100%;
+    padding: 0%;
+    mix-blend-mode: normal;
+}
+
+#secondpage {
+    min-width: 100%;
+    padding: 0%;
+    background-color: black;
+}
+
+#homeContent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-62%, -56%);
+    display: block;
+}
+
+.discord-bot-banner-text {
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+
+#contentHeading2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3.0vw;
+    line-height: 150%;
+    /* identical to box height, or 60px
+
+    text-align: center; */
+    letter-spacing: -0.01em;
+
+    background: linear-gradient(92.97deg, #FC9701 0.13%, #FFDC5E 99.87%), #FFFFFF;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+
+}
+
+#contentFont2 {
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8vw;
+    line-height: 160%;
+    /* or 35px
+    letter-spacing: -0.01em; */
+    letter-spacing: -0.01em;
+    text-align: center;
+
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.display {
+    display: inline;
+}
+
+.discord-bot-banner-text2 {
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 20%;
+    transform: translateY(-20%);
+
+}
+/* .topBord {
+    border-top: 1px dashed rgba(255, 255, 255, 0.5);
+    top: 50% bottom: 0;
+} */
+
+/* @media (max-width: 760px) {
+    #contentHeading2 {
+        font-size: .5em;
+    }
+
+    #contentFont2 {
+        font-size: .5em;
+    }
+
+}
+
+@media (max-width: 576px) {
+    #contentHeading2 {
+        font-size: .25em;
+    }
+
+    #contentFont2 {
+        font-size: .25em;
+    }
+
+} */
+
+#heading1 {
+    color: #FFFFFF;
+    font-size: 2.0vw;
+    font-weight: 380;
+    /* position: absolute;
+    text-align: center;
+    width: 408.8px;
+    height: 31.71px;
+    left: 575.93px;
+    top: 273.48px; */
+}
+
+#subheading1 {
+    font-size: 3.2vw;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: -0.01em;
+    background: linear-gradient(92.35deg, #FC9701 -1.83%, #FFDC5E 101.65%), #FFFFFF;
+    background: linear-gradient(92.97deg, #FC9701 0.13%, #FFDC5E 99.87%), #FFFFFF;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+
+    border: 1px solid #000000;
+    /* position: absolute;
+    text-align: center;
+    width: 599.88px;
+    height: 103.24px;
+    left: 480.89px;
+    top: 330.19px; */
+}
+.image_size {
+    font-size: 3.2vw;
+}
+
+.head {
+    position: relative;
+}
+
+#contentFont3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+    line-height: 160%;
+    /* or 35px
+        letter-spacing: -0.01em; */
+    text-align: center;
+
+    color: rgba(255, 255, 255, 0.8);
+
+}
+
+#fair_part {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.8vw;
+    /* identical to box height, or 56px */
+    text-align: center;
+    letter-spacing: -0.01em;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.14);
+}
+
+#adinfo {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.8vw;
+    /* or 42px */
+
+    text-align: center;
+    letter-spacing: -0.01em;
+    text-transform: capitaliz;
+    color: white;
+}
+
+#buttoninfo {
+    font-size: 1.5vw;
+    margin-top: 1.8vw;
+    font-weight: 700;
+}
+
+.thirdPageImages {
+    width: 9vw;
+}
+
+#seeinfoButton {
+    background: linear-gradient(92.97deg, #FFDC5E 0.13%, #FCC601 99.87%);
+    border-radius: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    color: black;
+    font-size: 1.8vw;
+}
+
+#apiImage {
+    width: 10vw;
+}
+
+#contentFont4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.5vw;
+    line-height: 140%;
+    /* or 53px */
+
+    letter-spacing: -0.01em;
+
+    color: #FFFFFF;
+}
+
+#contentHeading3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.0vw;
+    line-height: 140%;
+    /* identical to box height, or 34px */
+
+    letter-spacing: -0.01em;
+
+    background: linear-gradient(92.97deg, #FC9701 0.13%, #FFDC5E 99.87%), #FFFFFF;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.discord-bot-banner-text3 {
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 70%;
+    transform: translateY(-70%);
+
+}
+
+.footerPageImages {
+    width: 15vw;
+}
